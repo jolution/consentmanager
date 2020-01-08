@@ -1,0 +1,21 @@
+plugin.tx_consentmanager {
+  view {
+    # cat=consentmanager/file//10; type=string; label=Path to template root (FE)
+    templateRootPath = EXT:consentmanager/Resources/Private/Templates/
+    # cat=consentmanager/file; type=string; label=Path to template partials (FE)
+    partialRootPath = EXT:consentmanager/Resources/Private/Partials/
+    # cat=consentmanager/file; type=string; label=Path to template layouts (FE)
+    layoutRootPath = EXT:consentmanager/Resources/Private/Layouts/
+  }
+
+  # customsubcategory=settings=Settings
+  settings {
+    # cat=consentmanager/settings; type=string; label=Consentmanager ID (Used for all Languages)
+    cmProperty =
+    # cat=consentmanager/settings; type=string; label=Google Property ID (Used for all Languages)
+    gaProperty =
+    # cat=consentmanager/settings; type=string; label=Hotjar Property ID (Used for all Languages)
+    hjProperty =
+  }
+
+}

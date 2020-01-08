@@ -1,0 +1,42 @@
+######################
+#### DEPENDENCIES ####
+######################
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
+
+################
+#### SETUP #####
+################
+
+plugin.tx_consentmanager {
+  view {
+    templateRootPaths.0 = EXT:consentmanager/Resources/Private/Templates/
+    templateRootPaths.1 = {$plugin.tx_consentmanager.view.templateRootPath}
+    partialRootPaths.0 = EXT:consentmanager/Resources/Private/Partials/
+    partialRootPaths.1 = {$plugin.tx_consentmanager.view.partialRootPath}
+    layoutRootPaths.0 = EXT:consentmanager/Resources/Private/Layouts/
+    layoutRootPaths.1 = {$plugin.tx_consentmanager.view.layoutRootPath}
+  }
+
+  settings {
+    cmProperty = {$plugin.tx_consentmanager.settings.cmProperty}
+    gaProperty = {$plugin.tx_consentmanager.settings.gaProperty}
+    hjProperty = {$plugin.tx_consentmanager.settings.hjProperty}
+  }
+
+}
+
+##############
+#### PAGE ####
+##############
+
+page.headerData.20 = USER
+page.headerData.20 {
+  userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+  pluginName = Main
+  extensionName = Consentmanager
+  vendorName = Jolution
+  action = cookie
+  view < plugin.tx_consentmanager.view
+  persistence < plugin.tx_consentmanager.persistence
+}
