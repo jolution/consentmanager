@@ -1,4 +1,4 @@
-# Consentmanager 0.1.0
+# Consentmanager
 
 A tiny extension for integrating the consent manager.
 
@@ -14,3 +14,7 @@ This extension is a very early alpha version and is intended for developer purpo
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Roadmap
+
+- [ ] Config option for `Hotjar`
