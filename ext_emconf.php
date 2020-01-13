@@ -21,12 +21,12 @@ $EM_CONF[$_EXTKEY] = [
             'Jolution\\Consentmanager\\' => 'Classes'
         ],
     ],
-    'state' => 'stable',
+    'state' => 'experimental',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 1,
     'author' => 'Julian',
     'author_email' => 'info@jolution.de',
     'author_company' => 'Jolution',
-    'version' => '0.1.0',
+    'version' => '0.1.1',
 ];
