@@ -1,4 +1,4 @@
-# Consentmanager
+# Consentmanager 0.1.0
 
 A tiny extension for integrating the consent manager.
 
