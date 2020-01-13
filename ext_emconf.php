@@ -28,5 +28,5 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Julian',
     'author_email' => 'info@jolution.de',
     'author_company' => 'Jolution',
-    'version' => '0.1.1',
+    'version' => '1.0.1',
 ];
