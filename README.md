@@ -1,4 +1,4 @@
-# Consentmanager
+# Typo3 Consentmanager Wrapper Plugin
 
 A tiny extension for integrating the consent manager.
 
