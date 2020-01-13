@@ -6,7 +6,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'consentmanager',
     'description' => 'Typo3 Extension Wrapper for Consentmanager',
-    'category' => 'templates',
+    'category' => 'plugin',
     'constraints' => [
         'depends' => [
             'typo3' => '9.5.0-9.5.99',
