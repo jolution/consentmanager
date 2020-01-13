@@ -1,11 +1,11 @@
 {
     "name": "jolution/consentmanager",
     "type": "typo3-cms-extension",
-    "description": "desc",
-    "homepage": "https://jolution.com",
+    "description": "Typo3 Extension Wrapper for Consentmanager",
+    "homepage": "https://jolution.de",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
-    "version": "1.0.0",
+    "version": "0.1.0",
     "require": {
         "typo3/cms-core": "^9.5",
         "typo3/cms-rte-ckeditor": "^9.5",

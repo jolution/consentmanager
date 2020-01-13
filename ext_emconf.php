@@ -5,7 +5,7 @@
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'consentmanager',
-    'description' => 'desc',
+    'description' => 'Typo3 Extension Wrapper for Consentmanager',
     'category' => 'templates',
     'constraints' => [
         'depends' => [
@@ -25,8 +25,8 @@ $EM_CONF[$_EXTKEY] = [
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 1,
-    'author' => 'Jolution',
+    'author' => 'Julian',
     'author_email' => 'info@jolution.de',
     'author_company' => 'Jolution',
-    'version' => '1.0.0',
+    'version' => '0.1.0',
 ];

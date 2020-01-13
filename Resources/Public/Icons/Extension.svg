@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="jolution-logo-web.svg.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   width="400"
+   height="400"
+   id="svg3336"
+   inkscape:export-filename="C:\Users\julian\Dropbox\meinefirma\Firmen\logo jolution\jolution-logo-web.svg.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:object-paths="false"
+     inkscape:current-layer="layer1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="189.71591"
+     inkscape:cx="201.31202"
+     inkscape:zoom="0.53006255"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     id="namedview11"
+     inkscape:window-height="2097"
+     inkscape:window-width="3840"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <metadata
+     id="metadata3352">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <desc
+     id="desc3338">Example circle01 - circle filled with red and stroked with blue</desc>
+  <path
+     id="circle3342"
+     d="m 196.43309,75.580588 a 123.61,123.61 0 0 0 -123.61,123.600002 123.61,123.61 0 0 0 123.61,123.61 123.61,123.61 0 0 0 123.61,-123.61 123.61,123.61 0 0 0 -123.61,-123.600002 z m 0,47.215002 a 76.393,76.393 0 0 1 76.39,76.38 76.393,76.393 0 0 1 -76.39,76.4 76.393,76.393 0 0 1 -76.39,-76.4 76.393,76.393 0 0 1 76.39,-76.39 z"
+     display="none"
+     inkscape:connector-curvature="0"
+     style="display:none;fill:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="logo"
+     transform="translate(-7.0669098,-5.3194122)"
+     style="display:inline">
+    <circle
+       id="circle3340"
+       cy="205.31941"
+       cx="207.06691"
+       r="200"
+       style="fill:#292c2f;stroke:none" />
+    <path
+       id="circle3340-3"
+       d="m 283.05692,19.28541 c -0.0826,62.214 -0.11798,124.87 0.0312,186.25 -3.4e-4,42.19 -34.202,74.978 -76.39301,74.979 -35.174,-0.0297 -56.225,-24.791 -56.225,-24.791 l -28.104,38.641 c 22.867,21.404 53.007,33.329 84.328,33.365 68.26701,3.4e-4 123.61001,-55.341 123.61001,-123.61 0.37622,-51.57 1.0632,-103.72 1.7734,-155.85 a 200,200 0 0 0 -49.02,-28.984 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:none" />
+  </g>
+</svg>
