@@ -1,6 +1,6 @@
-# Typo3 Consentmanager Wrapper Plugin
+# Typo3 Extension ```Consentmanager```
 
-A tiny extension for integrating the consent manager.
+A tiny extension for integrating the externial consent manager.
 
 ## Installation
 
