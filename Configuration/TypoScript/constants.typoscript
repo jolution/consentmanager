@@ -16,6 +16,8 @@ plugin.tx_consentmanager {
     gaProperty =
     # cat=consentmanager/settings; type=string; label=Hotjar Property ID (Used for all Languages)
     hjProperty =
+    # cat=consentmanager/settings; type=string; label=Google Tag Manager Property ID (Used for all Languages)
+    gtmProperty =
   }
 
 }

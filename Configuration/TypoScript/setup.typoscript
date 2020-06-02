@@ -22,6 +22,7 @@ plugin.tx_consentmanager {
     cmProperty = {$plugin.tx_consentmanager.settings.cmProperty}
     gaProperty = {$plugin.tx_consentmanager.settings.gaProperty}
     hjProperty = {$plugin.tx_consentmanager.settings.hjProperty}
+    gtmProperty = {$plugin.tx_consentmanager.settings.gtmProperty}
   }
 
 }

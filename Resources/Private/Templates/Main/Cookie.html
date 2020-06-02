@@ -13,15 +13,11 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async class="cmplazyload" data-cmp-vendor="s26" data-cmp-src="https://www.googletagmanager.com/gtag/js?id={settings.gaProperty}"></script>
   <script>
-  var gaProperty = '<f:format.raw>{settings.gaProperty}</f:format.raw>',
-  <f:if condition="{settings.cookiebar.hjProperty}">hjProperty = '<f:format.raw>{settings.cookiebar.hjProperty}</f:format.raw>',</f:if>
-  disableStr = 'ga-disable-' + gaProperty;
-
+  var gaProperty = '<f:format.raw>{settings.gaProperty}</f:format.raw>', disableStr = 'ga-disable-' + gaProperty;
   function gaOptout() {
     document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
     window[disableStr] = true;
   }
-
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -30,7 +26,29 @@
   </script>
 </f:if>
 
-<f:comment><f:if condition="{settings.hjProperty}"></f:if></f:comment>
+<f:if condition="{settings.hjProperty}">
+  <script data-cmp-vendor="s46" type="text/plain" class="cmplazyload">
+    var hjProperty = '<f:format.raw>{settings.hjProperty}</f:format.raw>';
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:hjProperty,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+</f:if>
+
+<f:if condition="{settings.gtmProperty}">
+  <script data-cmp-vendor="s905" type="text/plain" class="cmplazyload">
+    var gtmProperty = '<f:format.raw>{settings.gtmProperty}</f:format.raw>';
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',gtmProperty);</script>
+</f:if>
 
 </f:section>
 

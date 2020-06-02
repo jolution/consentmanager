@@ -24,7 +24,8 @@ consentmanager
 
 ## Roadmap
 
-- [ ] Config option for `Hotjar`
+- [x] Config option for `Google Tag Manager`
+- [x] Config option for `Hotjar`
 - [ ] Config option for `anonymize_ip`
 - [ ] Config option for `forceSSL`
 - [ ] Config option for `transport_type`
