@@ -2,11 +2,11 @@
 defined('TYPO3_MODE') || die();
 
 // TypoScript
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Consentmanager');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('consentmanager', 'Configuration/TypoScript', 'Consentmanager');
 
 // Plugin
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-	$_EXTKEY,
+	'consentmanager',
 	'Main',
 	'Cookies'
 );
